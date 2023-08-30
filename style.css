@@ -1,0 +1,252 @@
+.side_icon {
+  width: 16px;
+  height: 18px;
+}
+.side_bar {
+  background-color: black;
+  flex: 1;
+}
+
+.line_horz {
+  margin: auto;
+  width: 80%;
+  height: 3px;
+  background-color: gray;
+}
+
+.scroll_nav {
+  overflow-y: scroll;
+  height: 23.5vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.side_icons:hover {
+  background-color: #282828;
+}
+.others {
+  font-size: 14px;
+}
+
+.main {
+  background-image: linear-gradient(to bottom, rgb(31, 31, 31) 1%, #121212);
+  flex: 3;
+}
+.scroll_main {
+  overflow-y: scroll;
+  height: 87vh;
+}
+
+.navi {
+  width: 35px;
+  margin-inline: 5px;
+}
+
+.user {
+  position: absolute;
+  right: 2vw;
+  top: 1vw;
+  background-color: black;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.gm-play {
+  background-color: #303030;
+  border-radius: 2px;
+  width: 180px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  margin-inline: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.gm-play > img {
+  width: 55px;
+}
+.abc {
+  width: 32%;
+  position: relative;
+  right: 12px;
+}
+
+.album_card {
+  width: 150px;
+  height: 170px;
+  margin-inline: 20px;
+}
+.album_card > img {
+  width: 90px;
+}
+.album_card:hover {
+  background-color: #232323;
+}
+.name {
+  font-size: 15px;
+  color: white;
+}
+
+.artist {
+  font-size: 12px;
+  color: white;
+}
+
+.player {
+  background-color: #282828;
+  width: 100vw;
+  height: 11vh;
+}
+.song_cover > img {
+  width: 60%;
+  margin-left: 10px;
+}
+.player_buttons > img {
+  width: 70%;
+  margin-left: 18%;
+}
+.volume_tools > img {
+  width: 75%;
+  margin-left: 20%;
+}
+
+.device_listening {
+  width: 100vw;
+  height: 20px;
+  background-color: #1ed760;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.device_listening > span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.device_listening > img {
+  width: 15px;
+  margin-left: 20px;
+}
+
+.nav_mobile {
+  display: none;
+}
+.logo {
+  width: 11vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+.search {
+  width: 5.6vw;
+  margin-top: 5.4vw;
+  margin-left: 32vw;
+}
+.menu {
+  width: 8vw;
+  margin-top: 4vw;
+  margin-left: 3vw;
+}
+.btn_open {
+  margin-top: 3vw;
+  margin-left: 4vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 3vw;
+  border-radius: 28px;
+  height: 9vw;
+  width: 30vw;
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 601;
+}
+
+.scroll_section_horz{
+  display: none;
+}
+
+.scroll {
+  margin-left: 10px;
+  margin-top: 2vh;
+  height: 52vw;
+  display: flex;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.item {
+  min-width: 39vw;
+  height: 50vw;
+  text-align: center;
+  background-color: rgb(27, 25, 25 0.1);
+  margin-inline: 1vw;
+  border-radius: 5px;
+  padding: 2vw;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 1vw;
+  padding-top: 2vw;
+}
+
+.item:hover {
+  background-color: rgb(35, 33, 33);
+}
+.play-img {
+  width: 37vw;
+  border-radius: 5px;
+}
+.play-name {
+  color: white;
+  position: absolute;
+}
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  height: 5vw;
+  color: white;
+  top: 42vw;
+  left: 3vw;
+  font-weight: 500;
+  font-size: 4vw;
+}
+
+@media (max-width: 768px) {
+  .gm-play {
+    width: 160px;
+    height: 50px;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  .gm-play > img {
+    width: 50px;
+  }
+  .nav_mobile {
+    background-color: black;
+    height: 14.2vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+  }
+  .all_icons {
+    position: relative;
+    top: 15vw;
+  }
+
+  .song_cover > img {
+    display: none;
+  }
+  .player_buttons > img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .volume_tools > img {
+    display: none;
+  }
+
+  .scroll_section_horz{
+    display: block;
+  }
+}
