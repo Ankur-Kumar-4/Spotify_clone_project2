@@ -1,0 +1,222 @@
+.side_icon {
+    width: 20px;
+    height: 18px;
+  }
+  .side_bar {
+    background-color: black;
+    flex: 1;
+    height: 100vh;
+  }
+  .side_icons:hover {
+    background-color: #282828;
+  }
+  .others {
+    font-size: 14px;
+  }
+
+.fade_color{
+    color: #FFFFFF;
+
+}   
+  .main {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(144,174,167,1) 100%);
+    flex: 4.6;
+    position: relative;
+  }
+  .scroll_main {
+    overflow-y: auto;
+    height: 100vh;
+  }
+  
+.line_horz {
+    margin: auto;
+    width: 80%;
+    height: 3px;
+    background-color: #FFFFFF;
+}
+.nav_image{
+    width:90%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left:10px;
+   
+}
+.library_image{
+    width: 20%;
+}
+.library_head{
+position: relative;
+top: 4vh;
+}
+.transp_head{
+position: relative;
+top:0.5vw;
+padding-left: 20px;
+background-color: rgb(2, 2, 2,0.3) ;
+}
+.trans_img{
+    width: 4%;
+    margin-inline: 8px;
+}
+.trans_img_dots{
+    width: 2%;
+    height: 0.5%;
+    margin-top: 20px;
+    margin-inline: 8px;
+    
+}
+.player {
+    background-color: #282828;
+    width: 100vw;
+    height: 11vh;
+  }
+  .song_cover > img {
+    width: 60%;
+    margin-left: 10px;
+  }
+  .player_buttons > img {
+    width: 70%;
+    margin-left: 18%;
+  }
+  .volume_tools > img {
+    width: 75%;
+    margin-left: 20%;
+  }
+
+
+ .lists_songs{
+    position: relative;
+    padding-left: 20px;
+    background-color: black;
+    height: fit-content;
+    
+ } 
+.song_card{
+padding-left: 5px;
+background-color:black ;
+border-radius: 5px;
+}
+.song_card:hover{
+   
+background-color:rgb(41, 41, 41) ;
+
+}
+
+.album_img{
+    width: 40px;
+}
+.album_name{
+  margin-left: 15%;
+  font-size: 12px;
+}
+.date_added{
+  font-size: 12px;
+  margin-left: 14%;
+}
+.timer{
+  font-size: 12px;
+  margin-left: 14%;
+}
+
+.nav_mobile{
+  display: none;
+}
+.logo {
+  width: 11vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+.search {
+  width: 5.6vw;
+  margin-top: 5.4vw;
+  margin-left: 32vw;
+}
+.menu {
+  width: 8vw;
+  margin-top: 4vw;
+  margin-left: 3vw;
+}
+.btn_open {
+  margin-top: 3vw;
+  margin-left: 4vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 3vw;
+  border-radius: 28px;
+  height: 9vw;
+  width: 30vw;
+  border: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 601;
+}
+
+
+@media (max-width: 768px) {
+  .nav_mobile {
+    background-color: black;
+    height: 14.2vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+  }
+  .library_image{
+    width: 200px;
+    height:200px;
+  }
+  .lorem{
+    display: none;
+  }
+  .heading_songs{
+    display: none;
+  }
+  .transp_head{
+    margin-top: 10px;
+  }
+  .trans_img{
+    width: 7%;
+    margin-inline: 6px;
+}
+.trans_img_dots{
+    width: 5%;
+    height: 1%;
+    margin-top: 14px;
+    margin-inline: 8px;
+    
+}
+.song_card{
+font-size: 11px;
+
+}
+.song_name{
+margin-top: 10px;
+}
+.album_img{
+  height: 50px;
+}
+.album_name{
+  display: none;
+}
+.date_added{
+  display: none;
+}
+.timer{
+  margin-left: 33%;
+  
+}
+.lists_songs{
+ position: relative;
+ bottom: 2px;
+}
+.song_cover > img {
+  display: none;
+}
+.player_buttons > img {
+  width: 90%;
+  margin-left: 5%;
+}
+.volume_tools > img {
+  display: none;
+}
+}
